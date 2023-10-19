@@ -1,0 +1,224 @@
+.About{
+    background-image: url('../imgs/BackAb.JPG');
+    background-size: 250vh;
+    background-repeat: no-repeat;    
+    position: sticky;
+    height: 100vh;
+    width: 217.1vh;
+}
+
+.About ul{
+    align-items: center;
+    margin-left: 300px;
+    color: white;
+    list-style-type: none;
+}
+
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.Navbar svg{
+    color: white;
+    margin-top: 3vh;
+}
+
+.Title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.Title h1{
+    font-size: 4.5vh;
+    margin-left: 10vh;
+}
+
+li{
+    margin: 168px;
+}
+
+.Design{
+    background-color: red;
+    height: 60px;
+}
+
+.Info h3{
+ display: flex;
+ color: white;
+ font-size: 3vh;
+ text-align: left;
+ margin-left: -10vh;
+ line-height: 5vh;
+}
+
+.ALLab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+.Retrato{
+    opacity: 0%;
+    background-image: url('../imgs/Yo.jpeg');
+    background-size: cover;
+    background-position:center;
+    background-color: blue;
+    height: 70vh;
+    width: 50vh;
+    border-radius:  20px;
+    animation-name: Enter2;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100vh;
+    margin-top: -25vh;
+    width: 20vh;
+    height: 10vh;
+    list-style-type: none;
+
+}
+
+.Twitter{
+    background-image: url('../imgs/Twitter.png');
+    background-size: 22vh;
+    background-position: center;
+    border-radius: 20px;
+    background-color: red;
+    height: 20vh;
+    width: 20vh;
+    margin-left: 10vh;
+    animation-name: Enter2;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    box-shadow:0 0 1vh #cfd0ff, 0 0 1vh #bffdff, 0 0 2vh #d1f8ff;
+}
+
+.Instagram{
+    background-image: url('../imgs/Insta.png');
+    background-size: 23vh;
+    background-position: center;
+    border-radius: 20px;
+    background-color: red;
+    height: 20vh;
+    width: 20vh;
+    margin-left: 10vh;
+    animation-name: Enter2;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    box-shadow:0 0 1vh #cfd0ff, 0 0 1vh #bffdff, 0 0 2vh #d1f8ff;
+}
+
+.Threads{
+    background-image: url('../imgs/Threads.png');
+    background-size: 23vh;
+    background-position: center;
+    border-radius: 20px;
+    background-color: red;
+    height: 20vh;
+    width: 20vh;
+    margin-left: 10vh;
+    animation-name: Enter2;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    box-shadow:0 0 1vh #cfd0ff, 0 0 1vh #bffdff, 0 0 2vh #d1f8ff;
+}
+
+.Twitter, .Threads, .Instagram{
+    opacity: 0%;
+}
+
+.Twitter:hover{
+    box-shadow: 0 0 1.5vh #ffffff, 0 0 4vh #fff, 0 0 5vh #fff;
+    transition: all ease .5s;
+    background-position: center;
+    background-size: 25vh;
+    height: 22vh;
+    width: 22vh;
+}
+
+.Twitter:active{
+    box-shadow: 0 0 2.5vh #00c8ff, 0 0 5vh #00fffb, 0 0 10vh #00eaff;
+    transition: all ease .5s;
+    background-position: center;
+    background-size: 21vh;
+    height: 18vh;
+    width: 18vh;
+}
+
+.Instagram:hover{
+    box-shadow: 0 0 1.5vh #ffffff, 0 0 4vh #ff80d0, 0 0 5vh #9a75ff;
+    transition: all ease .5s;
+    background-position: center;
+    background-size: 26vh;
+    height: 22vh;
+    width: 22vh;
+}
+
+
+.Instagram:active{
+    box-shadow: 0 0 2.5vh #ea00ff, 0 0 5vh #ff00fb, 0 0 10vh #ff4ef6;
+    transition: all ease .5s;
+    background-position: center;
+    background-size: 22vh;
+    height: 18vh;
+    width: 18vh;
+}
+
+.Threads:hover{
+    box-shadow: 0 0 1.5vh #ffffff, 0 0 4vh #ff80d0, 0 0 5vh #9a75ff;
+    transition: all ease .5s;
+    background-position: center;
+    background-size: 26vh;
+    height: 22vh;
+    width: 22vh;
+}
+
+
+.Threads:active{
+    box-shadow: 0 0 2.5vh #ea00ff, 0 0 5vh #ff00fb, 0 0 10vh #ff4ef6;
+    transition: all ease .5s;
+    background-position: center;
+    background-size: 21vh;
+    height: 18vh;
+    width: 18vh;
+}
+
+.Back2{
+    text-shadow:0 0 10px #cfd0ff, 0 0 20px #bffdff, 0 0 40px #d1f8ff;;
+
+}
+
+.Back2:hover{
+    Text-shadow: 0 0 7px #00c3ff, 0 0 12px #00f7ff, 0 0 22px #00ccff;
+    font-size: 5vh;
+    transition: all ease .3s;
+}
+.Back2:active{
+    Text-shadow: 0 0 7px #00a2ff, 0 0 12px #0059ff, 0 0 22px #0084ff;
+    font-size: 3.7vh;
+    transition: all ease .3s;
+}
+
+@keyframes Enter2{
+    form{opacity: 0%;}
+    to{opacity: 100%;}
+}

@@ -1,0 +1,204 @@
+
+
+.Hola svg{
+  display: block;
+  color: white;
+}
+.Hola{
+  display: block;
+  color: white;
+}
+
+.Redes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url("../imgs/back2.jpg");
+  background-size: cover;
+  position: sticky;
+  font-size: 30px;
+  font-family: monospace;
+  color: white;
+}
+.Redes h2{
+  font-size: 20px;
+}
+
+.NavBarGrid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10vh;
+
+}
+
+.Gallery{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20vh;
+  width: 80%;
+  height: 100%;
+  margin-top: 10vh;
+}
+
+.grid{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.grid2, .grid3{
+  width: 100%;
+  height: 100%;
+  margin-top: 10vh;
+  background-color: rgba(255, 255, 255, 0.0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.Ab{
+  text-shadow:0 0 1vh #cfd0ff, 0 0 1vh #bffdff, 0 0 2vh #d1f8ff;
+  font-size: 4vh;
+}
+
+.Ab:hover{
+  font-size: 4.5vh;
+  transition: all ease.2s;
+  text-shadow:0 0 2vh #cfd0ff, 0 0 2vh #bffdff, 0 0 3vh #d1f8ff;
+}
+
+.Ab:active{
+  font-size: 3.5vh;
+  transition: all ease.2s;
+  text-shadow:0 0 1vh #8789ff, 0 0 1vh #85fbff, 0 0 2vh #6de9ff;
+}
+
+.NavBarGrid h4{
+  font-family: monospace;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: none;
+  }
+
+
+  .images, .images2, .images3, .images4, .images5, .images6, .images7, .images8, .images9{
+    opacity: 0%;
+    background-size: cover;
+    background-color: rgb(255, 0, 0);
+    width: 35vh;
+    height: 35vh;
+    padding: 7vh;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px; 
+    animation-name: enter;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+  
+  
+.images{
+  background-image: url("../imgs/Yoimi.jpeg");
+  box-shadow: 0 0 5px #1302ff, 0 0 10px #be6716, 0 0 20px #0026ff
+}
+.images2{
+  background-image: url("../imgs/Fogata.jpeg");
+  box-shadow: 0 0 1px #ff6702, 0 0 10px #be6716, 0 0 20px #0026ff
+}
+.images3{
+  background-image: url("../imgs/BackAb.JPG");
+  background-position: center;
+  box-shadow: 0 0 5px #413d80, 0 0 10px #05257e, 0 0 20px #152375
+}
+.images4{
+  background-image: url("../imgs/HuTao.jpeg");
+  background-position: center;
+  box-shadow: 0 0 5px rgb(129, 78, 11), 0 0 10px #ff8800, 0 0 20px #0026ff
+}
+.images5{
+  background-image: url("../imgs/Mex.jpeg");
+  background-position: center;
+  box-shadow: 0 0 5px #ff5f02, 0 0 10px #aa3e00, 0 0 20px #ffc04c
+}
+.images6{
+  background-image: url("../imgs/Space.jpeg");
+  box-shadow: 0 0 5px #27217a, 0 0 10px #1621be, 0 0 20px #082ed3
+}
+.images7{
+  background-image: url("../imgs/Doom.jpeg");
+  background-position: center;
+  box-shadow: 0 0 5px #ff1302, 0 0 10px #ff3939, 0 0 20px #ff1100
+}
+.images8{
+  background-image: url("../imgs/Saya.jpeg");
+  background-position: center;
+  box-shadow: 0 0 5px #02f7ff, 0 0 10px #16b3be, 0 0 20px #00e1ff
+}
+.images9{
+  background-image: url("../imgs/saiy.jpeg");
+  box-shadow: 0 0 5px #ffbc02, 0 0 10px #ff7b00, 0 0 20px #ff7300
+}
+
+
+
+.images:hover, .images2:hover, .images3:hover,
+.images4:hover, .images5:hover, .images6:hover,
+.images7:hover, .images8:hover, .images9:hover{
+     width: 37vh;
+     height: 37vh;
+     border-radius: 2vh;
+     transition: all ease .3s;
+}
+.images:active, .images2:active, .images3:active,
+.images4:active, .images5:active, .images6:active,
+.images7:active, .images8:active, .images9:active{
+  width: 33vh;
+  height: 33vh;
+  border-radius: 2vh;
+  transition: all ease .3s;
+}
+
+ul{
+  list-style-type: none;
+}
+
+Button{
+  background-color: none;
+}
+
+@keyframes Inicio{
+  from{Top: -200% }
+  to{Top: 25%}
+}
+
+@keyframes enter{
+  form{color: none}
+  from{opacity: 0%;}
+}
+@keyframes Inicio2{
+  from{text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff;}
+  from{color: white}
+  from{font-size: 2vh;}
+  to{font-size: 2.5vh;}
+  to{color: rgb(255, 255, 255)}
+  to{text-shadow: 0 0 40px #00c8ff, 0 0 40px #00eaff, 0 0 40px #0008ff;}
+}
+

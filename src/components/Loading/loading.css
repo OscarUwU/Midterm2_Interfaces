@@ -1,0 +1,53 @@
+/* Base */
+.Body {
+    padding: 0;
+    margin: 0!important;
+    background-image:url("../imgs/Desc.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .shiny h1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    animation-name: example;
+    animation-duration: 1s;
+    
+  }
+  
+    h1 span {
+    transition: 0.5s ease-out;
+  }
+
+  @keyframes example{
+    from{color: #ffffff}
+    from{text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff}
+    to{text-shadow: none;}
+    to{color: #494949;}
+  }
+
+  @keyframes example2{
+    from{margin-left: -2000px}
+    to{margin-left: 1650px;}
+  }
+    
+
+  .shiny{
+    margin-right: 5px;
+    animation-name:example;
+    animation-duration: 3s;
+    opacity: 100%;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .esp{
+    animation-name:example2; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.1,1,1,.1);
+    
+  }

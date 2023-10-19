@@ -1,0 +1,130 @@
+
+body {
+  background-image: url("../imgs/Desc.jpg");
+  background-color: rgb(117, 117, 117);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  position: sticky;
+  font-family: monospace;
+}
+
+.Ti{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0%;
+  animation-name: enter;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.Ti h1{
+  text-align: center;
+}
+
+.Ports{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  
+}
+
+.Ports h1{
+  color: white;
+  font-size: 5%;
+  top: 10px;
+}
+
+.Ports h3{
+  color: white;
+  font-size: 4vh;
+  text-shadow:0 0 10px #cfd0ff, 0 0 20px #bffdff, 0 0 40px #d1f8ff;
+  margin-top: 1vh;
+  font-family: monospace;
+}
+
+.portafol, .portafol2{
+  display: flex;
+  flex-direction: column;
+}
+
+  .box, .box2{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50vh;
+    height: 50vh; 
+    opacity: 0%;
+    margin-top: 5vh;
+    border-radius: 20px;
+    animation-name: enter;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    border-radius: 3vh;
+  }
+
+
+  .box{
+    background-image: url("../imgs/Yoimi.jpeg");
+  }
+  .box2{
+    background-image: url("../FotosDavid/Limbo-15\ \(1\).jpg");
+  }
+
+
+
+  .box:hover{
+    background-size:cover;
+    width: 60vh;
+    background-position: center;
+    box-shadow: 0 0 20px #1302ff, 0 0 30px #be6716, 0 0 40px #0026ff;
+    height: 60vh; 
+    border-radius: 3vh;
+    transition: all ease 0.5s;
+    
+
+  }
+    .box:active{
+      filter: contrast(130%);
+      background-size:cover;
+      background-size:cover;
+      box-shadow: 0 0 40px #1302ff, 0 0 50px #be6716, 0 0 60px #0026ff;
+      width: 46vh;
+      height: 46vh;
+      border-radius: 3vh;
+      transition: all ease 0.5s;
+
+  }.box2:hover{
+    background-size:cover;
+    width: 60vh;
+    background-position: center;
+    box-shadow:0 0 20px #cfd0ff, 0 0 30px #bffdff, 0 0 40px #d1f8ff;
+    height: 60vh; 
+    border-radius: 3vh;
+    transition: all ease 0.5s;
+  }
+
+  .box2:active{
+    filter: contrast(130%);
+    background-position: center;
+    background-size:cover;
+    box-shadow:0 0 20px #cfd0ff, 0 0 30px #bffdff, 0 0 40px #d1f8ff;
+    width: 46vh;
+    height: 46vh;
+    border-radius: 3vh; 
+    border-radius: 20px;
+  }
+
+
+@keyframes enter{
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}

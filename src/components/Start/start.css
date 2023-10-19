@@ -1,0 +1,48 @@
+
+.Inicioo h1{
+    color: white;
+    font-size: 20vh;
+    margin-top: 15%;
+    font-family: monospace;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+    animation-duration: 3s;
+    animation-name: inicio;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h3{
+    opacity: 0%;
+    color: none;
+    font-size: 5vh;
+    font-family: monospace;
+    text-shadow:none;
+    animation-name: enter;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.Enter:hover{
+    font-size: 6vh;
+    text-shadow:0 0 10px #cfd0ff, 0 0 20px #bffdff, 0 0 40px #d1f8ff;
+    transition: all ease .2s;
+}
+.Enter:active{
+    font-size: 4vh;
+    text-shadow:0 0 40px #cfd0ff, 0 0 50px #bffdff, 0 0 70px #d1f8ff;
+    transition: all ease .2s;
+}
+
+@keyframes inicio{
+    from{text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff;}
+    to{text-shadow:0 0 10px #cfd0ff, 0 0 20px #bffdff, 0 0 40px #d1f8ff;}
+}
+
+@keyframes enter{
+    form{color: none}
+    from{opacity: 0%;}
+    to{color: rgba(255, 255, 255, 1)}
+    to{opacity: 100%;}
+}

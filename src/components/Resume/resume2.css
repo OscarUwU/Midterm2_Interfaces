@@ -1,0 +1,86 @@
+.Backgr2{
+    background-image: url("../FotosDavid/Back4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    font-size: 5vh;
+    text-align: left;
+}
+.ResumeTitle{
+    color: white;
+    text-align: left;
+    margin-left: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.ResumeTitle h1{
+    font-size: 5vh;
+}
+
+.ResumeTitle h2{
+    font-size: 3vh;
+    font-family: monospace;
+}
+
+.ResumeTitle p{
+    font-size: 2vh;
+}
+
+.imag, .imag2, .imag3, .imag4, .imag5, .imag6{
+    background-size: cover;
+    background-position: center;
+    width: 10vh;
+    height: 10vh;
+    margin: 2vh;
+}
+
+.imag{
+    background-image: url("../FotosDavid/phsp.png");
+}
+.imag2{
+    background-image: url("../FotosDavid/Pre.png");
+}
+.imag3{
+    background-image: url("../FotosDavid/Lr.png");
+}
+.imag4{
+    background-image: url("../imgs/htmlll.png");
+}
+.imag5{
+    background-image: url("../imgs/cshar.png");
+}
+.imag6{
+    background-image: url("../imgs/css33.png");
+}
+
+.Programs{
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.Back{
+    text-shadow:0 0 10px #cfd0ff, 0 0 20px #bffdff, 0 0 40px #d1f8ff;;
+    width: 10%;
+    height: 10%;
+}
+
+.Back:hover{
+    Text-shadow: 0 0 7px #00c3ff, 0 0 12px #00f7ff, 0 0 22px #00ccff;
+    font-size: 7vh;
+    transition: all ease .3s;
+}
+
+.Back:active{
+    Text-shadow: 0 0 7px #00a2ff, 0 0 12px #0059ff, 0 0 22px #0084ff;
+    font-size: 4vh;
+    transition: all ease .3s;
+}
+
+
+
+

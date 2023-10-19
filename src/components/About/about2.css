@@ -1,0 +1,116 @@
+.About2{
+    background-image: url('../FotosDavid/Back4.jpg');
+    background-size: 250vh;
+    background-repeat: no-repeat;    
+    position: sticky;
+    height: 100vh;
+    width: 217.1vh;
+}
+
+.About2 ul{
+    align-items: center;
+    margin-left: 300px;
+    color: white;
+    list-style-type: none;
+}
+
+.NavBar2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.Navbar2 svg{
+    color: white;
+    margin-top: 3vh;
+}
+
+.Title2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.Title2 h1{
+    font-size: 4.5vh;
+    margin-left: 10vh;
+}
+
+li{
+    margin: 168px;
+}
+
+.Design2{
+    background-color: red;
+    height: 60px;
+}
+
+.Info2 h3{
+ display: flex;
+ color: white;
+ font-size: 3vh;
+ text-align: left;
+ margin-left: -10vh;
+ line-height: 5vh;
+}
+
+.ALLab2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+.Retrato2 {
+    opacity: 0%;
+    background-image: url('../FotosDavid/Limbo-15\ \(1\).jpg');
+    background-size: cover;
+    background-position:center;
+    background-color: blue;
+    height: 70vh;
+    width: 50vh;
+    border-radius:  20px;
+    animation-name: Enter2;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.Social2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100vh;
+    margin-top: -25vh;
+    width: 20vh;
+    height: 10vh;
+    list-style-type: none;
+
+}
+
+.Back2{
+    text-shadow:0 0 10px #cfd0ff, 0 0 20px #bffdff, 0 0 40px #d1f8ff;;
+
+}
+
+.Back2:hover{
+    Text-shadow: 0 0 7px #ffffff, 0 0 12px #ffffff, 0 0 22px #ffffff;
+    font-size: 5vh;
+    transition: all ease .3s;
+}
+.Back2:active{
+    Text-shadow: 0 0 7px #cfd0ff, 0 0 20px #bffdff, 0 0 40px #d1f8ff;
+    font-size: 3.7vh;
+    transition: all ease .3s;
+}
+
+@keyframes Enter2{
+    form{opacity: 0%;}
+    to{opacity: 100%;}
+}
